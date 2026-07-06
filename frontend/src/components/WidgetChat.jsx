@@ -92,7 +92,7 @@ export default function WidgetChat() {
         setMessages([
           {
             sender: 'ai',
-            text: `Hi **${visitorName}**! I'm the AI Guide for **theshivanshvasu** platform. I see you are a **${professionInput}** aiming to: *"${goalInput.trim()}"*. How can I help you navigate our core tracks (DSA 360, Elevate Full Stack, System Design), notes vault, or handbooks today?`,
+            text: `Hi **${visitorName}**! I'm the AI Guide for **STUDENT HELP** platform. I see you are a **${professionInput}** aiming to: *"${goalInput.trim()}"*. How can I help you navigate our core tracks (DSA 360, Elevate Full Stack, System Design), notes vault, or handbooks today?`,
             createdAt: new Date()
           }
         ]);
@@ -121,7 +121,7 @@ export default function WidgetChat() {
 
     console.log("Debugging chat send:");
     console.log("VisitorId state", visitorId);
-    console.log("DConversationId state:", conversationId);
+    console.log("ConversationId state:", conversationId);
     console.log("messages text:",userMessageText);
 
 
